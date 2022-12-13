@@ -1,16 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Diagnostics;
 using System.Text;
-using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace practic6
 {
-    internal class Class1
+    public class MyDataFile
     {
-        public int _Number_;
-        public string Location;
-        public int Time_min;
-        public string Fullness;
+        public MyDataFile(string name, int price)
+        {
+            Name = name;
+            Price = price;
+        
+
+        public string Name { get; set; } = "";
+        public int Price { get; set; } = 0;
+
     }
+
 }
